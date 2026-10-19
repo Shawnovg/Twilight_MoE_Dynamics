@@ -1,0 +1,28 @@
+name: smoke
+data_root: E:/HarunoKen/Twilight_MoE_Dynamics
+seeds: [7]
+data:
+  train_sequences: 32
+  val_sequences: 8
+  test_sequences: 8
+  length: 96
+  context: 8
+  burn_in: 64
+  noise_std: 0.08
+  stay_probability: 0.95
+model:
+  experts: 3
+  hidden: 24
+  router_hidden: 16
+  top_k: 2
+training:
+  epochs: 6
+  batch_size: 256
+  learning_rate: 0.002
+  balance_weight: 0.01
+  threads: 2
+evaluation:
+  rollout_horizon: 16
+  adaptation_window: 20
+  recovery_multiplier: 1.5
+  recovery_consecutive: 3

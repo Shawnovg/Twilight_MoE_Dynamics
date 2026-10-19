@@ -1,0 +1,64 @@
+{
+  "name": "attention_comparison_v1",
+  "data_root": "E:/HarunoKen/Twilight_MoE_Dynamics",
+  "seeds": [
+    7,
+    17,
+    27
+  ],
+  "models": [
+    "dense_active",
+    "dense_total",
+    "moe",
+    "random",
+    "oracle",
+    "attn_dense",
+    "attn_active",
+    "attn_total",
+    "attn_moh",
+    "attn_random",
+    "attn_ffn_moe",
+    "attn_ffn_total",
+    "attn_both"
+  ],
+  "data": {
+    "train_sequences": 256,
+    "val_sequences": 64,
+    "test_sequences": 64,
+    "length": 192,
+    "context": 8,
+    "burn_in": 128,
+    "noise_std": 0.08,
+    "stay_probability": 0.95
+  },
+  "model": {
+    "experts": 3,
+    "hidden": 32,
+    "router_hidden": 24,
+    "top_k": 2
+  },
+  "attention": {
+    "width": 16,
+    "layers": 2,
+    "heads": 4,
+    "head_dim": 4,
+    "shared_heads": 1,
+    "top_k": 2,
+    "ffn_hidden": 32,
+    "ffn_experts": 3,
+    "ffn_top_k": 2
+  },
+  "training": {
+    "epochs": 40,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "balance_weight": 0.01,
+    "threads": 2
+  },
+  "evaluation": {
+    "rollout_horizon": 32,
+    "adaptation_window": 24,
+    "recovery_multiplier": 1.5,
+    "recovery_consecutive": 3
+  }
+}

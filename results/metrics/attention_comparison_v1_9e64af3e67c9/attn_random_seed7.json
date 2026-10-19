@@ -1,0 +1,53 @@
+{
+  "model": "attn_random",
+  "seed": 7,
+  "total_parameters": 4820,
+  "trainable_parameters": 4628,
+  "active_parameters": 4820,
+  "attention_heads": 4,
+  "logical_selected_heads": 3,
+  "attention_dense_compute": true,
+  "best_epoch": 39,
+  "best_val_mse_normalized": 0.20152472950316763,
+  "training_seconds": 62.635154300005524,
+  "test_mse": 0.01090953778475523,
+  "test_windows": 11840,
+  "switch_mse": 0.07241660356521606,
+  "persistence_mse": 0.03993581607937813,
+  "known_dynamics_mse": 0.0063553969375789165,
+  "noise_variance": 0.0064,
+  "switch_episodes": 578,
+  "recovered_episodes": 445,
+  "recovered_fraction": 0.7698961937716263,
+  "recovery_delay_steps": 2.4629213483146066,
+  "recovery_threshold": 0.011464633047580719,
+  "rollout_mean_mse": 0.049200850509805605,
+  "rollout_origins": 320,
+  "head_layer0_agreement": 0.33386824324324327,
+  "head_layer0_mapping_validation": [
+    2,
+    0,
+    1
+  ],
+  "head_layer1_agreement": 0.4101351351351351,
+  "head_layer1_mapping_validation": [
+    1,
+    0,
+    2
+  ],
+  "dataset": "E:\\HarunoKen\\Twilight_MoE_Dynamics\\generated\\f9cdcf050ad3",
+  "source_files": {
+    "src\\twilight_moe\\__init__.py": "72ff49642c08e948fa3d292e32e0a3f71fe50e6ceffec90b1371d2743f803cbb",
+    "src\\twilight_moe\\attention.py": "db9bc582d83d61c20dbcd0bc292188879c877d90edbd169bb44a09fed19cd12c",
+    "src\\twilight_moe\\attention_diagnostics.py": "b3b0e1956b883ed011ff2483eb788a904bfaac6393510735272d1f989318cb7c",
+    "src\\twilight_moe\\config.py": "43b646236e43a3d729bdbb951dda417c5c8485f283f626c1017fed4e1e6c764e",
+    "src\\twilight_moe\\data.py": "2f98596a652e4d844c3c3254eb3f0647323f710c7a650b5461e376ecadaa1bdc",
+    "src\\twilight_moe\\dynamics.py": "84ab2c1eb6085199447bfc6e9688a80cf48f20aff230c3d9d88594264a80fc3c",
+    "src\\twilight_moe\\evaluation.py": "d0b1c1f7a5795524bb575f7d0c1309a5b7a8a5f9f750d77afb06d11fda6853e5",
+    "src\\twilight_moe\\experiment.py": "0c3fd67ce6ec6a63b546ca7b2e7799b6e6ab559c0a1434900c204190220accad",
+    "src\\twilight_moe\\models.py": "00b17c02186cd1fd406a7176d80aab0ec0f9719dfffe34d7f8f17a383b5f1932",
+    "src\\twilight_moe\\plotting.py": "5f2d7f10bb4cc6f8dfaa9b9d0f1b7feeafb5db48fccb88e7ea28f8714b07157c",
+    "src\\twilight_moe\\routers.py": "a218ebbf18d734133753343acb98aef686dcaf0416a7d1bb8d3ee4bdde0cd007",
+    "src\\twilight_moe\\training.py": "65830e6a37068bcfef820e389015df86fbe4e1d2f9ce08013ae3c3cd548941a0"
+  }
+}

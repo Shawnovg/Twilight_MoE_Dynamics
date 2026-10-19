@@ -1,0 +1,87 @@
+{
+  "config": "configs/attention_smoke.yaml",
+  "verified_checkpoints": 13,
+  "all_source_hashes_match": true,
+  "training_normalization_matches": true,
+  "checkpoint_selection_matches_histories": true,
+  "checks": [
+    {
+      "model": "dense_active",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "dense_total",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "moe",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "random",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "oracle",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_dense",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_active",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_total",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_moh",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_random",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_ffn_moe",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_ffn_total",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    },
+    {
+      "model": "attn_both",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 6
+    }
+  ]
+}

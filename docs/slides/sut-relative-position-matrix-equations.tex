@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\paragraph{matrix}
+\[
+\Delta=[\delta_{ij}]=\begin{bmatrix}0&1&2&2&2\\-1&0&1&2&\boxed{2}\\-2&-1&0&1&2\\-2&-2&-1&0&1\\-2&-2&-2&-1&0\end{bmatrix}
+\]
+
+\paragraph{offset}
+\[
+\delta_{ij}=\operatorname{clip}(j-i,-W,W)
+\]
+
+\paragraph{example}
+\[
+\delta_{2,5}=\operatorname{clip}(5-2,-2,2)=2
+\]
+
+\paragraph{lookup}
+\[
+\delta_{2,5}=2\quad\longrightarrow\quad r_2\quad\longrightarrow\quad q_2^{\mathsf T}r_2
+\]
+
+\paragraph{score}
+\[
+z_{ij}=\frac{q_i^{\mathsf T}k_j+\overbrace{q_i^{\mathsf T}r_{\delta_{ij}}}^{\text{relative-position contribution}}}{\sqrt{D}},\qquad a_{ij}=\operatorname{softmax}_j(z_{ij})
+\]
+\end{document}

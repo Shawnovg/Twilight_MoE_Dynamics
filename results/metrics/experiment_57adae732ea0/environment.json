@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.3",
+  "device": "cpu",
+  "source_files": {
+    "src\\twilight_moe\\__init__.py": "72ff49642c08e948fa3d292e32e0a3f71fe50e6ceffec90b1371d2743f803cbb",
+    "src\\twilight_moe\\config.py": "35d59e14b61f85cb0bf4efe2a5cc4b71996cd7a6366c46a6c0b522f0c8a5f58a",
+    "src\\twilight_moe\\data.py": "2f98596a652e4d844c3c3254eb3f0647323f710c7a650b5461e376ecadaa1bdc",
+    "src\\twilight_moe\\dynamics.py": "84ab2c1eb6085199447bfc6e9688a80cf48f20aff230c3d9d88594264a80fc3c",
+    "src\\twilight_moe\\evaluation.py": "d0b1c1f7a5795524bb575f7d0c1309a5b7a8a5f9f750d77afb06d11fda6853e5",
+    "src\\twilight_moe\\experiment.py": "9b5e3fd684ea1c25c2bc38c6481e8499db392cc35036c46b7bafdcf04bcf287f",
+    "src\\twilight_moe\\models.py": "cff1c1411e7c2f1e02b343a694f7f96dd6370b40a0ee3d3b4e86b30cc9d7dc54",
+    "src\\twilight_moe\\plotting.py": "241b880ed2ae47b49e0da25315dbdd97bd2cb7c6204b7ada71559dbe856c12ff",
+    "src\\twilight_moe\\routers.py": "a218ebbf18d734133753343acb98aef686dcaf0416a7d1bb8d3ee4bdde0cd007",
+    "src\\twilight_moe\\training.py": "dd41a43e71276eef201c683b6adb3e35c5cbe3e550fbb66a0e26dc04855ea67f"
+  }
+}

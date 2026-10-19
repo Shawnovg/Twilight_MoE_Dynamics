@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\paragraph{states}
+\[
+\mathbf{u}_{\ell}=H_{\ell-1}[i,:],\qquad \mathbf{h}_{\ell}=H_{\ell}[i,:],\qquad \mathbf{z}_{\ell}=I_{\ell}[i,:]
+\]
+
+\paragraph{utgate}
+\[
+p_{\ell}=\sigma(\mathbf{w}^{\mathsf T}\mathbf{u}_{\ell}+b),\qquad C_0=0
+\]
+
+\paragraph{utweight}
+\[
+a_{\ell}=\begin{cases}p_{\ell},&C_{\ell-1}+p_{\ell}\leq\tau\quad\text{(continue)},\\1-C_{\ell-1},&C_{\ell-1}+p_{\ell}>\tau\quad\text{(halt)}.\end{cases}
+\]
+
+\paragraph{utacc}
+\[
+C_{\ell}=C_{\ell-1}+a_{\ell},\qquad C_N=1
+\]
+
+\paragraph{utmix}
+\[
+\mathbf{z}_{\ell}=a_{\ell}\mathbf{h}_{\ell}+(1-a_{\ell})\mathbf{z}_{\ell-1}
+\]
+
+\paragraph{utcost}
+\[
+N=\min\!\left\{n:\sum_{j=1}^{n}p_j>\tau\right\},\qquad R=1-\sum_{j=1}^{N-1}p_j,\qquad\rho_{\rm UT}=N+R
+\]
+
+\paragraph{mapping}
+\[
+H_{\ell}:\text{ raw block outputs}\qquad I_{\ell}:\text{ combined outputs}
+\]
+
+\paragraph{sutgate}
+\[
+p_{\ell}=\mathrm{halt}(\mathbf{h}_{\ell}),\qquad b_{\ell}=p_{\ell}\prod\nolimits_{j=1}^{\ell-1}(1-p_j)=p_{\ell}m_{\ell-1}
+\]
+
+\paragraph{sutmass}
+\[
+m_0=1,\qquad m_{\ell}=(1-p_{\ell})m_{\ell-1},\qquad C_{\ell}=\sum_{j=1}^{\ell}b_j=1-m_{\ell}
+\]
+
+\paragraph{sutmix}
+\[
+\mathbf{z}_{\ell}=\underbrace{m_{\ell-1}\mathbf{h}_{\ell}}_{\text{current surviving mass}}+\underbrace{\sum_{j=1}^{\ell-1}b_j\mathbf{h}_j}_{\text{earlier stopped states}}
+\]
+
+\paragraph{sutcost}
+\[
+\rho_{\rm SUT}=\sum_{\ell=1}^{L}\ell\,b_{\ell},\qquad \mathcal{L}_{\rm ACT}=\frac{1}{T}\sum_{i=1}^{T}\rho^{(i)}
+\]
+
+\paragraph{att}
+\[
+\mathrm{Attention}\!\left(\underbrace{\mathbf{h}_{\ell-1}^{(i)}}_{Q\text{ input}},\underbrace{I_{\ell-1}}_{K,V\text{ inputs}}\right)
+\]
+\end{document}

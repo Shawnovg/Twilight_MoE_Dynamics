@@ -1,0 +1,30 @@
+{
+  "model": "oracle",
+  "seed": 27,
+  "total_parameters": 6732,
+  "trainable_parameters": 6732,
+  "active_parameters": 2244,
+  "best_epoch": 35,
+  "best_val_mse_normalized": 0.11920212821380512,
+  "training_seconds": 15.76004390000162,
+  "test_mse": 0.006682094186544418,
+  "test_windows": 11840,
+  "switch_mse": 0.007318835239857435,
+  "persistence_mse": 0.0381048247218132,
+  "known_dynamics_mse": 0.0063803535886108875,
+  "noise_variance": 0.0064,
+  "switch_episodes": 580,
+  "recovered_episodes": 470,
+  "recovered_fraction": 0.8103448275862069,
+  "recovery_delay_steps": 1.5468085106382978,
+  "recovery_threshold": 0.009871949441730976,
+  "rollout_mean_mse": 0.05450258377823047,
+  "rollout_origins": 320,
+  "routing_agreement": 1.0,
+  "route_mapping_validation": [
+    0,
+    1,
+    2
+  ],
+  "dataset": "E:\\HarunoKen\\Twilight_MoE_Dynamics\\generated\\74bd6fde6001"
+}

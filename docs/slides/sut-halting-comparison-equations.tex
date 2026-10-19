@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\paragraph{ut acc}
+\[
+C_{\ell}=C_{\ell-1}+q_{\ell}
+\]
+
+\paragraph{sut break}
+\[
+p_{\ell}=q_{\ell}m_{\ell-1},\qquad m_{\ell}=(1-q_{\ell})m_{\ell-1}
+\]
+
+\paragraph{ut act}
+\[
+\rho_{\mathrm{UT}}=N+R,\qquad R=1-\sum_{j=1}^{N-1}q_j
+\]
+
+\paragraph{sut act}
+\[
+\rho_{\mathrm{SUT}}=\sum_{\ell=1}^{L}\ell\,p_{\ell}
+\]
+
+\paragraph{raw}
+\[
+\mathbf{x}_{\ell}\quad\text{block output before halting aggregation}
+\]
+
+\paragraph{mixed}
+\[
+\mathbf{s}_{\ell}\quad\text{halting-weighted state}
+\]
+
+\paragraph{postnorm}
+\[
+\mathbf{x}_{\ell}=\mathrm{LayerNorm}\!\left(\mathbf{a}_{\ell}+\mathrm{FFN}(\mathbf{a}_{\ell})\right)
+\]
+
+\paragraph{ut mix}
+\[
+\mathbf{s}_{\ell}=\underbrace{w_{\ell}\mathbf{x}_{\ell}}_{\text{current block output}}+\underbrace{(1-w_{\ell})\mathbf{s}_{\ell-1}}_{\text{previous mixture}}
+\]
+
+\paragraph{sut mix}
+\[
+\mathbf{s}_{\ell}=\underbrace{m_{\ell-1}\mathbf{x}_{\ell}}_{\text{current surviving mass}}+\underbrace{\sum_{j<\ell}p_j\mathbf{x}_j}_{\text{earlier stopping contributions}}
+\]
+
+\paragraph{weights}
+\[
+w_{\ell}=q_{\ell}\;(\ell<N),\qquad w_N=R
+\]
+
+\paragraph{survival}
+\[
+m_{\ell-1}=1-\sum_{j<\ell}p_j
+\]
+
+\paragraph{attention}
+\[
+Q\leftarrow\mathbf{x}_{\ell-1}^{(i)},\qquad K,V\leftarrow\mathbf{S}_{\ell-1}
+\]
+
+\paragraph{map raw}
+\[
+\text{UT: row of }H^{\ell}\;\longleftrightarrow\;\mathbf{x}_{\ell}\;\longleftrightarrow\;\text{SUT: }h_{\ell}^{(i)}
+\]
+
+\paragraph{map gate}
+\[
+q_{\ell}\equiv\hat\alpha_{\ell},\qquad p_{\ell}\equiv\alpha_{\ell}\quad\text{in SUT}
+\]
+
+\paragraph{average}
+\[
+\mathcal{L}_{\mathrm{ACT}}=\frac{1}{T}\sum_{i=1}^{T}\rho^{(i)}
+\]
+\end{document}

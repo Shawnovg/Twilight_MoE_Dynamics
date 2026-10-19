@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\paragraph{score}
+\[
+z_{ij}=\frac{\overbrace{q_i^{\mathsf T}k_j}^{\text{content}}+\overbrace{q_i^{\mathsf T}r_{\delta_{ij}}}^{\text{relative position}}}{\sqrt{D}},\qquad a_{ij}=\operatorname{softmax}_{j}(z_{ij})
+\]
+
+\paragraph{offset}
+\[
+\delta_{ij}=\operatorname{clip}(j-i,-W,W),\qquad r_{-W},\ldots,r_0,\ldots,r_W\quad(2W+1\text{ learned vectors})
+\]
+
+\paragraph{example}
+\[
+W=2,\quad i=3\quad\Longrightarrow\quad 2W+1=5\text{ relative-position vectors}
+\]
+\end{document}

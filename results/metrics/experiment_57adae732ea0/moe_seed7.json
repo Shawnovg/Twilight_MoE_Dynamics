@@ -1,0 +1,30 @@
+{
+  "model": "moe",
+  "seed": 7,
+  "total_parameters": 7599,
+  "trainable_parameters": 7599,
+  "active_parameters": 5355,
+  "best_epoch": 37,
+  "best_val_mse_normalized": 0.21315565979158557,
+  "training_seconds": 18.356057700002566,
+  "test_mse": 0.011591373011469841,
+  "test_windows": 11840,
+  "switch_mse": 0.07004497200250626,
+  "persistence_mse": 0.03993581607937813,
+  "known_dynamics_mse": 0.0063553969375789165,
+  "noise_variance": 0.0064,
+  "switch_episodes": 578,
+  "recovered_episodes": 448,
+  "recovered_fraction": 0.7750865051903114,
+  "recovery_delay_steps": 2.861607142857143,
+  "recovery_threshold": 0.012230895459651947,
+  "rollout_mean_mse": 0.05601037209271453,
+  "rollout_origins": 320,
+  "routing_agreement": 0.45819256756756754,
+  "route_mapping_validation": [
+    0,
+    2,
+    1
+  ],
+  "dataset": "E:\\HarunoKen\\Twilight_MoE_Dynamics\\generated\\f9cdcf050ad3"
+}

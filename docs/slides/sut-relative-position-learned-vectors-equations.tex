@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\paragraph{offset}
+\[
+\delta_{ij}=\operatorname{clip}(j-i,-W,W)
+\]
+
+\paragraph{matrix}
+\[
+\Delta=[\delta_{ij}]=\begin{bmatrix}0&1&2&2&2\\-1&0&1&2&\boxed{2}\\-2&-1&0&1&2\\-2&-2&-1&0&1\\-2&-2&-2&-1&0\end{bmatrix}
+\]
+
+\paragraph{shape}
+\[
+W=2,\quad D=3,\quad R\in\mathbb{R}^{(2W+1)\times D}=\mathbb{R}^{5\times3}
+\]
+
+\paragraph{learned}
+\[
+\begin{array}{c|rrr}r_{-2}^{\mathsf T}&0.1&0.3&-0.2\\r_{-1}^{\mathsf T}&0.4&-0.1&0.2\\r_0^{\mathsf T}&0.2&0.0&0.1\\r_1^{\mathsf T}&-0.3&0.2&0.4\\r_2^{\mathsf T}&\boxed{0.2}&\boxed{-0.5}&\boxed{0.1}\end{array}
+\]
+
+\paragraph{lookup}
+\[
+\delta_{2,5}=2\quad\Longrightarrow\quad r_{\delta_{2,5}}=r_2=\begin{bmatrix}0.2&-0.5&0.1\end{bmatrix}^{\mathsf T}\in\mathbb{R}^{3}
+\]
+
+\paragraph{scalar}
+\[
+q_2=\begin{bmatrix}1&2&3\end{bmatrix}^{\mathsf T}\quad\Longrightarrow\quad q_2^{\mathsf T}r_2=1(0.2)+2(-0.5)+3(0.1)=-0.5
+\]
+\end{document}

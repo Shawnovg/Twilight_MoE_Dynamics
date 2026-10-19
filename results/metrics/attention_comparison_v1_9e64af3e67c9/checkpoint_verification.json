@@ -1,0 +1,243 @@
+{
+  "config": "configs/attention_experiment.yaml",
+  "verified_checkpoints": 39,
+  "all_source_hashes_match": true,
+  "training_normalization_matches": true,
+  "checkpoint_selection_matches_histories": true,
+  "checks": [
+    {
+      "model": "dense_active",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "dense_total",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 37
+    },
+    {
+      "model": "moe",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 37
+    },
+    {
+      "model": "random",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "oracle",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_dense",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_active",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_total",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_moh",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_random",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_ffn_moe",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_ffn_total",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_both",
+      "seed": 7,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "dense_active",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "dense_total",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "moe",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "random",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "oracle",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 33
+    },
+    {
+      "model": "attn_dense",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_active",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "attn_total",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "attn_moh",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "attn_random",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "attn_ffn_moe",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "attn_ffn_total",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "attn_both",
+      "seed": 17,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "dense_active",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "dense_total",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 38
+    },
+    {
+      "model": "moe",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 39
+    },
+    {
+      "model": "random",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "oracle",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 35
+    },
+    {
+      "model": "attn_dense",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_active",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_total",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_moh",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_random",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_ffn_moe",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_ffn_total",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    },
+    {
+      "model": "attn_both",
+      "seed": 27,
+      "mse_difference": 0.0,
+      "checkpoint_epoch": 40
+    }
+  ]
+}

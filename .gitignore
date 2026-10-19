@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+results/checkpoints/
+results/previews/
+*.egg-info/
+.runtime/
+tmp/
+.chart-data-*/
+.lab-*-build/
+.presentation-build/
+.presentation-update/
+results/notebook_smoke_attention/
+~$*
+.env
+.env.*

@@ -1,0 +1,168 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\paragraph{ut update}
+\[
+H^t=\mathrm{LayerNorm}\!\left(A^t+\mathrm{Transition}(A^t)\right)
+\]
+
+\paragraph{ut attention}
+\[
+A^t=\mathrm{LayerNorm}\!\left((H^{t-1}+P^t)+\mathrm{MultiHeadSelfAttention}(H^{t-1}+P^t)\right)
+\]
+
+\paragraph{ut attention short}
+\[
+A^t=\mathrm{LayerNorm}\!\left(Z^t+\mathrm{MultiHeadSelfAttention}(Z^t)\right),\quad Z^t=H^{t-1}+P^t
+\]
+
+\paragraph{ffn tuple}
+\[
+(E,K,D)
+\]
+
+\paragraph{att tuple}
+\[
+(E,K,H,D,W)
+\]
+
+\paragraph{moe}
+\[
+y=\sum_{e=1}^{E}g(e\mid h)\cdot f_e(h)
+\]
+
+\paragraph{mim}
+\[
+\mathcal{L}_{\mathrm{MIM}}=\sum_{e=1}^{E}g(e)\log g(e)-\frac{1}{|\mathcal{X}|}\sum_{h\in\mathcal{X}}\sum_{e=1}^{E}g(e\mid h)\log g(e\mid h)
+\]
+
+\paragraph{marginal}
+\[
+g(e)=\frac{1}{|\mathcal{X}|}\sum_{h\in\mathcal{X}}g(e\mid h)
+\]
+
+\paragraph{entropy}
+\[
+H(e)=-\sum_{e=1}^{E}g(e)\log g(e)
+\]
+
+\paragraph{condentropy}
+\[
+H(e\mid h)=-\frac{1}{|\mathcal{X}|}\sum_{h\in\mathcal{X}}\sum_{e=1}^{E}g(e\mid h)\log g(e\mid h)
+\]
+
+\paragraph{mi identity}
+\[
+\mathcal{L}_{\mathrm{MIM}}=-H(e)+H(e\mid h)=-I(e;h)
+\]
+
+\paragraph{ut gate}
+\[
+q_l^{(t)}=\sigma\!\left(w^{\mathsf T}h_{l-1}^{(t)}+b\right)
+\]
+
+\paragraph{ut stop}
+\[
+N^{(t)}=\min\!\left\{n:\sum_{l=1}^{n}q_l^{(t)}>\tau\right\}
+\]
+
+\paragraph{ut remainder}
+\[
+R^{(t)}=1-\sum_{l=1}^{N^{(t)}-1}q_l^{(t)}
+\]
+
+\paragraph{ut weights}
+\[
+w_l^{(t)}=\begin{cases}q_l^{(t)},&l<N^{(t)}\\R^{(t)},&l=N^{(t)}\end{cases}
+\]
+
+\paragraph{ut act}
+\[
+\mathcal{L}_{\mathrm{ACT}}^{\mathrm{UT}}=\frac{1}{T}\sum_{t=1}^{T}\left(N^{(t)}+R^{(t)}\right)
+\]
+
+\paragraph{sut gate}
+\[
+\hat\alpha_l^{(t)}=\operatorname{halt}\!\left(h_l^{(t)}\right)
+\]
+
+\paragraph{sut stop}
+\[
+\alpha_l^{(t)}=\hat\alpha_l^{(t)}\prod_{l'=1}^{l-1}\left(1-\hat\alpha_{l'}^{(t)}\right)
+\]
+
+\paragraph{sut thresh}
+\[
+\sum_{l'=1}^{l}\alpha_{l'}^{(t)}>\alpha_{\mathrm{thresh}},\qquad\alpha_{\mathrm{thresh}}=0.999
+\]
+
+\paragraph{sut act}
+\[
+\mathcal{L}_{\mathrm{ACT}}=\frac{1}{T}\sum_{t=1}^{T}\sum_{l=1}^{L}\alpha_l^{(t)}\cdot l
+\]
+
+\paragraph{recursive}
+\[
+h_l=\alpha_l\cdot\hat h_l+(1-\alpha_l)\cdot h_{l-1}
+\]
+
+\paragraph{sut state}
+\[
+s_l^{(t)}=\left(1-\sum_{l'=1}^{l-1}\alpha_{l'}^{(t)}\right)\cdot h_l^{(t)}+\sum_{l'=1}^{l-1}\alpha_{l'}^{(t)}h_{l'}^{(t)}
+\]
+
+\paragraph{sut query}
+\[
+a_l^{(t)}=\mathrm{Attention}\!\left(\underbrace{h_{l-1}^{(t)}}_{Q},\underbrace{S_{l-1}}_{K},\underbrace{S_{l-1}}_{V}\right)
+\]
+
+\paragraph{sut noop}
+\[
+h_l^{(t)}=h_{l-1}^{(t)},\qquad s_l^{(t)}=s_{l-1}^{(t)}
+\]
+
+\paragraph{cfq att}
+\[
+(E,K,H,D,W)=(1,1,8,64,1)
+\]
+
+\paragraph{cfq ffn}
+\[
+(E,K,D)=(1,1,1024)
+\]
+
+\paragraph{logic att}
+\[
+(E,K,H,D,W)=(12,4,2,32,1)
+\]
+
+\paragraph{logic ffn}
+\[
+(E,K,D)=(12,4,128)
+\]
+
+\paragraph{logic example}
+\[
+a\quad\#\mathrm{SEP}\#\quad(a\lor b)
+\]
+
+\paragraph{moa att}
+\[
+W_{i,t}^{\mathrm{att}}=\mathrm{Softmax}\!\left(\frac{q_t W_i^q(KW^k)^{\mathsf T}}{\sqrt{d_h}}\right)
+\]
+
+\paragraph{moa value}
+\[
+o_{i,t}=W_{i,t}^{\mathrm{att}}VW^v
+\]
+
+\paragraph{moa output}
+\[
+E_i(q_t,K,V)=o_{i,t}W_i^o
+\]
+
+\paragraph{moa sum}
+\[
+y_t=\sum_{i\in G(q_t)}w_{i,t}\cdot E_i(q_t,K,V)
+\]
+\end{document}

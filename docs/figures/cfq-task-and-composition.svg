@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="802.8pt" height="520.56pt" viewBox="0 0 802.8 520.56" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-15T20:53:00.905826</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 520.56 
+L 802.8 520.56 
+L 802.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 27.54 186.5448 
+L 200.52 186.5448 
+Q 207.216 186.5448 207.216 179.892 
+L 207.216 105.048 
+Q 207.216 98.3952 200.52 98.3952 
+L 27.54 98.3952 
+Q 20.844 98.3952 20.844 105.048 
+L 20.844 179.892 
+Q 20.844 186.5448 27.54 186.5448 
+z
+" clip-path="url(#p9b69fb8037)" style="fill: #e8f1fa; stroke: #cad4dc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 234 175.4568 
+L 334.44 175.4568 
+Q 341.136 175.4568 341.136 168.804 
+L 341.136 116.136 
+Q 341.136 109.4832 334.44 109.4832 
+L 234 109.4832 
+Q 227.304 109.4832 227.304 116.136 
+L 227.304 168.804 
+Q 227.304 175.4568 234 175.4568 
+z
+" clip-path="url(#p9b69fb8037)" style="fill: #e8f1fa; stroke: #cad4dc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 367.92 203.1768 
+L 766.89 203.1768 
+Q 773.586 203.1768 773.586 196.524 
+L 773.586 102.276 
+Q 773.586 95.6232 766.89 95.6232 
+L 367.92 95.6232 
+Q 361.224 95.6232 361.224 102.276 
+L 361.224 196.524 
+Q 361.224 203.1768 367.92 203.1768 
+z
+" clip-path="url(#p9b69fb8037)" style="fill: #e8f1fa; stroke: #cad4dc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 27.54 424.9368 
+L 367.92 424.9368 
+Q 374.616 424.9368 374.616 418.284 
+L 374.616 296.316 
+Q 374.616 289.6632 367.92 289.6632 
+L 27.54 289.6632 
+Q 20.844 289.6632 20.844 296.316 
+L 20.844 418.284 
+Q 20.844 424.9368 27.54 424.9368 
+z
+" clip-path="url(#p9b69fb8037)" style="fill: #e8f1fa; stroke: #cad4dc; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 409.77 424.9368 
+L 766.89 424.9368 
+Q 773.586 424.9368 773.586 418.284 
+L 773.586 296.316 
+Q 773.586 289.6632 766.89 289.6632 
+L 409.77 289.6632 
+Q 403.074 289.6632 403.074 296.316 
+L 403.074 418.284 
+Q 403.074 424.9368 409.77 424.9368 
+z
+" clip-path="url(#p9b69fb8037)" style="fill: #e9f3eb; stroke: #cad4dc; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 21.96 250.8552 
+L 775.26 250.8552 
+" clip-path="url(#p9b69fb8037)" style="fill: none; stroke: #cad4dc; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="21.96" y="36.592406" transform="rotate(-0 21.96 36.592406)">CFQ: learn to turn a question into a query</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="21.96" y="54.290925" transform="rotate(-0 21.96 54.290925)">Illustrative examples and shortened relation names; not actual CFQ records or an official split.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="21.96" y="85.884519" transform="rotate(-0 21.96 85.884519)">A  |  What one supervised example contains</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="35.352" y="122.132153" transform="rotate(-0 35.352 122.132153)">INPUT: QUESTION</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(35.352 149.027763)">Who directed Film A</text>
+    <text style="font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(35.352 168.527763)">and wrote Film B?</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="241.812" y="133.220153" transform="rotate(-0 241.812 133.220153)">MODEL</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="241.812" y="158.99295" transform="rotate(-0 241.812 158.99295)">Translate</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="375.732" y="119.360153" transform="rotate(-0 375.732 119.360153)">TARGET: QUERY TEXT</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(375.732 143.97045)">SELECT DISTINCT ?person WHERE {</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(375.732 161.803575)">  ?person :directed :Film_A .</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(375.732 179.803575)">  ?person :wrote :Film_B .</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(375.732 198.239513)">}</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 210.890953 143.856 
+Q 217.817859 143.856 222.732304 143.856 
+" style="fill: none; stroke: #506170; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 218.732304 141.856 
+L 222.732304 143.856 
+L 218.732304 145.856 
+" style="fill: none; stroke: #506170; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 343.694953 143.856 
+Q 350.621859 143.856 355.536304 143.856 
+" style="fill: none; stroke: #506170; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 351.536304 141.856 
+L 355.536304 143.856 
+L 351.536304 145.856 
+" style="fill: none; stroke: #506170; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="33.12" y="217.489969" transform="rotate(-0 33.12 217.489969)">Training: learn the paired target query.   Testing: generate a query for a new question.</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="33.12" y="240.220369" transform="rotate(-0 33.12 240.220369)">Executing the query against a knowledge base can return names; execution is a separate step.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="21.96" y="277.706919" transform="rotate(-0 21.96 277.706919)">B  |  Familiar pieces, a new combination</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="35.352" y="313.400153" transform="rotate(-0 35.352 313.400153)">ILLUSTRATIVE TRAINING PATTERNS</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(35.352 341.418575)">Who directed Film A?</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(35.352 362.418575)">Who wrote Film B?</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(35.352 383.418575)">Who wrote Film A and wrote Film B?</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="417.582" y="313.400153" transform="rotate(-0 417.582 313.400153)">ILLUSTRATIVE HELD-OUT COMBINATION</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(417.582 341.418575)">Who directed Film A and wrote Film B?</text>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(417.582 357.1992)"/>
+    <text style="font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #192b3a" transform="translate(417.582 382.062325)">Same person must satisfy BOTH relations.</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 378.291566 354.528 
+Q 388.84579 354.528 397.387554 354.528 
+" style="fill: none; stroke: #506170; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 393.387554 352.528 
+L 397.387554 354.528 
+L 393.387554 356.528 
+" style="fill: none; stroke: #506170; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="33.12" y="447.565969" transform="rotate(-0 33.12 447.565969)">CFQ compositional splits: similar basic-rule distributions, different combinations of those rules.</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="33.12" y="470.090925" transform="rotate(-0 33.12 470.090925)">Actual splits use generation-rule structure; this toy split only illustrates the idea.</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #192b3a" x="21.96" y="497.051081" transform="rotate(-0 21.96 497.051081)">Sources: Keysers et al., ICLR 2020 (arXiv:1912.09713); Tan et al., EMNLP 2023, §4.2.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9b69fb8037">
+   <rect x="10.8" y="10.8" width="781.2" height="498.96"/>
+  </clipPath>
+ </defs>
+</svg>
